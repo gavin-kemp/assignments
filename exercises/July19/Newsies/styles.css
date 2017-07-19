@@ -1,28 +1,33 @@
 body{
     
-    background-color: floralwhite;
+ background-color: floralwhite;
     
 }
 
-h1 {
+header {
     
     display: block;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     text-decoration: underline;
-    line-height: 5%;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top:15px;
+    
 }
 
-h2 {
+article {
     
+    font-size: 35px;
+    margin-top: 200px;
     margin: 5px;
     
 }
 
 
-h4 {
-    
+#name {
+    text-align: left;
+    font-size: 15px;
     margin: 10px;
     
 }
