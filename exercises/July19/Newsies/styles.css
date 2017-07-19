@@ -1,0 +1,52 @@
+body{
+    
+    background-color: floralwhite;
+    
+}
+
+h1 {
+    
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 5%;
+    margin-bottom: 100px;
+}
+
+h2 {
+    
+    margin: 5px;
+    
+}
+
+
+h4 {
+    
+    margin: 10px;
+    
+}
+
+.one {
+    
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    line-height: 150%;
+    
+}
+
+.image{
+    
+    margin: auto;
+    width:50%;
+    padding: 10px solid black; 
+    
+}
+
+#pic {
+    
+display: inline-block;
+width: 100%;
+    
+}
