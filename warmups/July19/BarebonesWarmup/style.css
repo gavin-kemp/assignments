@@ -17,3 +17,17 @@ p {
     
     
 }
+
+div ul li {
+    
+    
+    color:lemonchiffon;
+    
+    
+}
+
+div li:first-child {
+
+    color:violet;
+    
+}
