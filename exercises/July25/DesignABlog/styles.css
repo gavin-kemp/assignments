@@ -1,0 +1,199 @@
+body {
+    
+    margin: 0px;
+    background-color: white;
+    
+}
+
+nav {
+    
+/*    Answer to centering this properly: https://stackoverflow.com/questions/3157372/css-horizontal-centering-of-a-fixed-div*/
+    
+    
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    display:block;
+    position: fixed;
+    background-color: #47A1FF;
+    width: 98.5%;
+    height: 100px;
+    margin: 0 auto;
+    
+}
+
+#home {
+    
+    cursor: pointer;
+    font-size: 75px;
+    font-family: 'Oswald', sans-serif;
+    display:inline-block;
+    
+}
+
+#home:hover {
+    color: white;
+}
+
+#archive {
+    
+    cursor: pointer;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    display:inline-block;
+    
+}
+
+#archive:hover {
+    color: white;
+}
+
+#about {
+    
+    cursor: pointer;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    display:inline-block;
+    
+}
+
+#about:hover {
+    color: white;
+}
+
+#contact {
+    
+    cursor: pointer;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    display:inline-block;
+    
+}
+
+#contact:hover{
+    color:white;
+}
+
+#gavinKemp {
+    
+    margin-top: 34px;
+    margin-right: 3px;
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    display:inline-block;
+    float: right;
+    
+}
+
+.firstPost {
+    
+    margin: 125px auto;
+    width: 60%;
+    
+}
+
+.firstPost h1 {
+    
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    
+}
+
+.firstPost h3 {
+    
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    
+}
+
+.firstPost img {
+    
+    float: center;
+    width: 10%;
+    height: 10%;
+    float: left;
+    
+}
+
+.firstPost p {
+    
+    font-family: 'Raleway', sans-serif;
+    width: 60%;
+    margin: 30px auto;
+    
+}
+
+.secondPost {
+    
+    margin: 125px auto;
+    width: 60%;
+    
+}
+
+.secondPost h1 {
+    
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    
+}
+
+.secondPost h3 {
+
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    
+}
+
+.secondPost img {
+    
+    float: center;
+    width: 10%;
+    height: 10%;
+    float: left;
+    
+}
+
+.secondPost p {
+    font-family: 'Raleway', sans-serif;
+    width: 60%;
+/*    text-align: center;*/
+    margin: 30px auto;
+    
+}
+
+.thirdPost {
+    
+    margin: 125px auto;
+    width: 60%;
+    
+}
+
+.thirdPost h1 {
+    
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    
+}
+
+.thirdPost h3 {
+
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    
+}
+
+.thirdPost img {
+    
+    float: center;
+    width: 10%;
+    height: 10%;
+    float: left;
+}
+
+.thirdPost p {
+    
+    font-family: 'Raleway', sans-serif;
+    width: 60%;
+    margin: 30px auto;
+    
+}
