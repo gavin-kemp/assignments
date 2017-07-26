@@ -1,3 +1,5 @@
+//https://coursework.vschool.io/uptown-function-you-up/
+
 var lyrics = ["This", "hit", "that", "ice", "cold",  
               "Michelle", "Pfeiffer", "that", "white", 
               "gold", "This", "one", "for", "them", 
@@ -12,11 +14,8 @@ var lyrics = ["This", "hit", "that", "ice", "cold",
 
 function printArray(lyricsArray){
     
-    for (var i=0; i < lyricsArray.length; i++){
-      
-      console.log(lyricsArray[i] + " ");
+      console.log(lyricsArray.join(" "));
     
-    }
 }
 
 printArray(lyrics);
@@ -54,7 +53,7 @@ twoWords(lyrics);
 function everyOtherFunction(lyricsArray){
   
   for (var i=0; i < lyricsArray.length; i+=2){
-    
+      
     console.log(lyricsArray[i]);
     
   }
@@ -68,13 +67,9 @@ everyOtherFunction(lyrics);
 
 function reverseArray(lyricsArray){
   
-  reversedArray = lyricsArray.reverse();
-  
-  for (var i=0; i < reversedArray.length; i++){
+    var reversedArray = lyricsArray.reverse();
     
-    console.log(reversedArray[i] + " ");
-    
-  }
+    console.log(reversedArray.join(" "));
   
 }
 
