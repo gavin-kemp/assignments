@@ -1,0 +1,17 @@
+.row {
+	background-color: grey;
+	height: 100px;
+	width: 50%;
+}
+
+.row:hover {
+	background-color: blue;
+}
+
+.row:active {
+	background-color: red;
+}
+
+.row:visited {
+	background-color: yellow;
+}
