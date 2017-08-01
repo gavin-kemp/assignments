@@ -1,0 +1,72 @@
+.container {
+	background-color: #FFCCCC;
+}
+
+.col-lg-12 {
+	
+/*	border: dotted 2px black;*/
+	height: 100px;
+	margin-bottom: 0px;
+	
+}
+
+.col-lg-2 {
+	
+	border: solid 4px white;
+	height: 170px;
+	background-color: #e60012;
+	
+}
+
+.img-responsive {
+	height: 158px;
+	max-width: 100%;
+	align-content: center;
+	
+}
+
+.col-lg-4 {
+	
+	border: solid 4px white;
+	height: 85px;
+	background-color: grey;
+	font-family: 'Oswald', sans-serif;
+	font-size: 42.5px;
+	text-align: left;
+
+}
+
+.col-lg-6 {
+	margin-top: 50px;
+/*	border: dotted 4px black;*/
+	height: 75px;
+	background-color: grey;
+	font-family: 'Oswald', sans-serif;
+	font-size: 42.5px;
+}
+
+span {
+	text-align: right;
+	
+}
+
+.img {
+	
+/*	padding: 0px;*/
+	height: 350px;
+	width: 1440px;
+	
+}
+
+
+.goomba {
+
+}
+
+.bobombs {
+	
+}
+
+.cheepcheeps {
+	
+}
