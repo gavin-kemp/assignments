@@ -1,5 +1,15 @@
 .container {
-	background-color: #FFCCCC;
+	background-color: #fbc2b7;
+	border: solid 4px black;
+/*	border-right: solid 10px #df8b06;*/
+}
+
+.top {
+/*	border: dotted 2px black;*/
+	background-color: #aceceb;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 75px;
 }
 
 .col-lg-12 {
@@ -7,6 +17,14 @@
 /*	border: dotted 2px black;*/
 	height: 100px;
 	margin-bottom: 0px;
+	
+}
+
+.text-box {
+/*	width: 100px;*/
+	height: 75px;
+	background-color: grey;
+	border: none;
 	
 }
 
