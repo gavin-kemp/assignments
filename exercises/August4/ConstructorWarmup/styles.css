@@ -1,0 +1,26 @@
+.header {
+	
+	background-color: lightgrey;
+	height: 100px;
+
+}
+
+.menu {
+	
+	border: solid 2px black;
+	margin-top: 100px;
+	
+}
+
+.menu-items {
+/*	vertical-align: middle;*/
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.food {
+	
+	font-size: 50px;
+	text-align: center;
+	
+}
