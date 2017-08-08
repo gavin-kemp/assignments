@@ -5,6 +5,9 @@
 
 .light-pink {
 	background-color: #F5C6D6;
+	transition-property: width, height, background-color;
+	transition-duration: 10s;
+	transition-timing-function: ease;
 }
 
 .dark-pink {
@@ -13,12 +16,47 @@
 
 .blue {
 	background-color: #85CFD8;
+	transition-property: transform, width, height, background-color;
+	transition-duration: 3s;
+	transition-timing-function: ease;
 }
 
 .green {
 	background-color: #8DC63F;
+	transition-property: width, height;
+	transition-duration: 3s;
+	transition-timing-function: ease;
 }
 
 .orange {
 	background-color: #E76E34;
+	transition-property: background-color;
+	transition-duration: 2s;
+	transition-timing-function: ease;
+	
+}
+
+.orange:hover {
+	background-color: black;
+}
+
+.green:hover {
+	
+	width: 10px;
+	height: 10px;
+}
+
+.blue:hover {
+	
+	transform: rotate(3000000deg);
+	width: 10px;
+	height: 10px;
+	background-color: yellow;
+}
+
+.light-pink:active {
+	width: 1000px;
+	height: 1000px;
+	background-color: white;
+	
 }

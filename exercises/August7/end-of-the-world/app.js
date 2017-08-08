@@ -1,18 +1,17 @@
-var newBtn = document.getElementById("btn");
+//https://coursework.vschool.io/end-of-the-world/
+
+
 var timeOutput = document.getElementById("timeText");
 
-document.addEventListener("click", endWorldTime())
+function endWorldTime() {
 
-function endWorldTime(){
+	var time = setInterval(function ({
 
-	var time = setInterval(function({
 		
-		
-		
-		
-		
-	}), 20000);
-	
+
+
+
+	}), 1000);
+
 	timeOutput.textContent = time;
 }
-
