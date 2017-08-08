@@ -2,50 +2,59 @@
 
 var readline = require("readline-sync")
 
-while (numberOne !== "quit"){
+var userQuit = "";
 
-var numberOne = readline.question("(Enter quit to quit)\n\nPlease enter a number:\n");
+while (userQuit !== "quit") {
 
-var numberTwo = readline.question("\nPlease enter a second number: \n");
+	var numberOne = readline.question("\n\nPlease enter a number:\n");
 
-var operator = readline.question("\nEnter '+', '-', '*', or '/'\n\n");
+	var numberTwo = readline.question("\nPlease enter a second number: \n");
 
-var parsedOne = Number(numberOne);
+	var operator = readline.question("\nEnter '+', '-', '*', or '/'\n\n");
 
-var parsedTwo = Number(numberTwo);
+	var parsedOne = Number(numberOne);
 
-if (operator === '+') {
-	addFunction(parsedOne, parsedTwo);
-} else if (operator === '-') {
-	subtractFunction(parsedOne, parsedTwo);
-} else if (operator === '*') {
-	mulitplyFunction(parsedOne, parsedTwo);
-} else if (operator === '/') {
-	divideFunction(parsedOne, parsedTwo);
-}
+	var parsedTwo = Number(numberTwo);
 
-function addFunction(num1, num2) {
 
-	console.log("\nYour number is: " + (num1 + num2));
+	if (operator === '+') {
+		addFunction(parsedOne, parsedTwo);
+	} else if (operator === '-') {
+		subtractFunction(parsedOne, parsedTwo);
+	} else if (operator === '*') {
+		mulitplyFunction(parsedOne, parsedTwo);
+	} else if (operator === '/') {
+		divideFunction(parsedOne, parsedTwo);
+	}
 
-}
 
-function subtractFunction(num1, num2) {
+	function addFunction(num1, num2) {
 
-	console.log("\nYour number is: " + (num1 - num2));
+		console.log("\nYour number is: " + (num1 + num2));
 
-}
+	}
 
-function mulitplyFunction(num1, num2) {
 
-	console.log("\nYour number is: " + (num1 * num2));
+	function subtractFunction(num1, num2) {
 
-}
+		console.log("\nYour number is: " + (num1 - num2));
 
-function divideFunction(num1, num2) {
+	}
 
-	console.log("\nYour number is: " + (num1 / num2));
 
-}
+	function mulitplyFunction(num1, num2) {
+
+		console.log("\nYour number is: " + (num1 * num2));
+
+	}
+
+
+	function divideFunction(num1, num2) {
+
+		console.log("\nYour number is: " + (num1 / num2));
+
+	}
 	
+	var userQuit = readline.question("Enter 'quit' to quit. Or 'continue' to continue.\n")
+
 }
