@@ -13,7 +13,4 @@ let mult = function(){
     return arr;
   }
 
-
-
-
   module.exports = mult;

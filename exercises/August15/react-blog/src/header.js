@@ -5,7 +5,7 @@ class Header extends React.Component {
     render () {
         return (
             <div>
-                <h1 className="a-header">QEQWE QWE </h1>
+                <h1 className="a-header">SMILE IN RUSSIAN</h1>
                 <Navbar />
             </div>
         )
