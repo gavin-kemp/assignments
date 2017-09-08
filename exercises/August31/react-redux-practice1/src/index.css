@@ -1,0 +1,30 @@
+.main-form {
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.edit-form {
+    text-align: center;
+}
+
+.item-comp {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.del-btn {
+    width: 10%;
+}
+
+.edit-btn{
+    width: 10%;
+}
+
+.show {
+    display: inherit;
+}
+
+.hide {
+    display: none;
+}

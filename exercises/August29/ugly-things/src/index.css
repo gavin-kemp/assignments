@@ -1,0 +1,48 @@
+.header {
+    background-color: lightgrey;
+    height: 125px;
+    /* text-align: left; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    /* line-height: 20px; */
+    /* margin-bottom: 5px; */
+    /* padding-top: 10px; */
+}
+
+form {
+    display: inline;
+    padding-left: 50px;
+}
+
+.title {
+    display: inline;
+    text-align: left;
+}
+
+.header-title {
+    text-align: center;
+    /* padding-bottom: 8px; */
+}
+
+.submit-button {
+    margin-left: 7px;
+}
+
+img {
+    height: 250px;
+    width: 100%;
+}
+
+.main-post {
+    text-align: center;
+}
+
+.btn-delete{
+    margin-top: 5px;
+    width: 50%;
+}
+
+.btn-edit {
+    margin-top: 5px;
+    width: 50%;
+}
